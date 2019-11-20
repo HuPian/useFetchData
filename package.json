@@ -1,0 +1,54 @@
+{
+  "name": "usefetchdata",
+  "version": "1.0.0",
+  "description": "useFetchData hook",
+  "main": "./lib/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "start": "webpack-dev-server -r @babel/register --config ./webpack.config.js",
+    "test": "mocha",
+    "build": "gulp"
+  },
+  "keywords": [
+    "hook",
+    "fetch",
+    "data"
+  ],
+  "author": "hupian",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^3.25.2",
+    "chai": "^4.2.0",
+    "chai-spies": "^1.0.0",
+    "fetch-mock": "^8.0.0",
+    "querystring": "^0.2.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "",
+    "webpack-dev-server": "^3.9.0",
+    "open-browser-plugin": "^1.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "mocha": "^6.2.2",
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.7.0",
+    "babel-loader": "^8.0.6",
+    "typescript": "^3.7.2",
+    "awesome-typescript-loader": "^5.2.1",
+    "source-map-loader": "^0.2.4",
+    "css-loader": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "path": "^0.12.7",
+    "gulp": "3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-sequence": "^1.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1"
+  }
+}
