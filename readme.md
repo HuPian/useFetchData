@@ -15,7 +15,7 @@ import
  
 ### 自动化测试
 
-todo
+`npm run test`
 
 ## API
 
